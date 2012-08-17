@@ -1,9 +1,7 @@
-== Bash
+My bash scripts!
 
-These are my bash scripts for daily usage.
+These are my bash scripts based on https://github.com/fnando/bash and https://github.com/adamv/dotfiles
 
-Just clone this repository to `~/.bash` and
-add the following line to your `~/.bash_profile`
-or equivalent file:
+Clone this repository to `~/.bash` and add the following line to your `~/.bash_profile`.
 
   source ~/.bash/init.sh
