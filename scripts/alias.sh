@@ -2,6 +2,7 @@ alias ll="ls -Glah"
 ###alias ll="ls -Glahs"
 
 alias ls="/bin/ls -G"
+alias mysql="mysql --auto-vertical-output"
 
 # update every 5 seconds
 alias topc="top -o cpu -s 5"
