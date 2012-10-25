@@ -1,5 +1,8 @@
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"
 
+export GREP_OPTIONS="--color=auto"
+export GREP_COLOR="7;32" ### 7-Reverse;32-Green
+
 export M2_HOME="$HOME/Development/apache-maven/apache-maven-3.0.4"
 export M2="$M2_HOME/bin"
 export PATH="$M2:$PATH"
