@@ -13,3 +13,5 @@ alias cls='clear'
 alias sizes='du -h -d1'
 
 alias rvmcheck='type rvm | head -1'
+
+alias psql="/usr/local/bin/psql"
