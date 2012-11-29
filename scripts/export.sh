@@ -14,3 +14,6 @@ export ROO_HOME="$HOME/Development/spring-roo-1.2.2.RELEASE"
 ###export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home"
 export JAVA_HOME="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
