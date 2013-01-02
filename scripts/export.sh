@@ -29,3 +29,5 @@ export SENCHA_SDK_TOOLS_2_0_0_BETA3="$HOME/Development/SenchaSDKTools-2.0.0-beta
 
 export PATH="$HOME/Development/SenchaCmd-3.0.0.250/Sencha/Cmd/3.0.0.250:$PATH"
 export SENCHA_CMD_3_0_0="$HOME/Development/SenchaCmd-3.0.0.250/Sencha/Cmd/3.0.0.250"
+
+export PATH="/usr/local/share/npm/bin:$PATH"
