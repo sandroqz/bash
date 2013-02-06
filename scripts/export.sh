@@ -1,5 +1,11 @@
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin"
 
+if [[ "$(uname)" != "Darwin" ]]; then
+  export EDITOR=vim
+else
+  export EDITOR="/usr/local/bin/subl -w"
+fi
+
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="1;31"
 
