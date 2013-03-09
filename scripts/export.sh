@@ -37,3 +37,5 @@ export PATH="$HOME/Development/SenchaCmd-3.0.0.250/Sencha/Cmd/3.0.0.250:$PATH"
 export SENCHA_CMD_3_0_0="$HOME/Development/SenchaCmd-3.0.0.250/Sencha/Cmd/3.0.0.250"
 
 export PATH="/usr/local/share/npm/bin:$PATH"
+
+export PGDATA="/usr/local/var/postgres"

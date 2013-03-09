@@ -3,7 +3,7 @@ alias ll="ls -Glah"
 
 alias ls="/bin/ls -G"
 alias mysql="mysql --auto-vertical-output"
-alias sqlite3="/usr/local/bin/sqlite3 -line"
+alias sqlite3="/usr/local/Cellar/sqlite/3.7.15.2/bin/sqlite3 -line"
 
 # update every 3 seconds
 alias topc="top -o cpu -s 3"
