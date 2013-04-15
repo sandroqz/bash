@@ -39,3 +39,8 @@ export SENCHA_CMD_3_0_0="$HOME/Development/SenchaCmd-3.0.0.250/Sencha/Cmd/3.0.0.
 export PATH="/usr/local/share/npm/bin:$PATH"
 
 export PGDATA="/usr/local/var/postgres"
+
+### Ruby’s GC Configuration
+export RUBY_GC_MALLOC_LIMIT=1000000000
+export RUBY_FREE_MIN=500000
+export RUBY_HEAP_MIN_SLOTS=40000
