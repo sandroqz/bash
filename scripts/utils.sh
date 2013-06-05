@@ -12,3 +12,8 @@ cd() {
 search() {
   find . -type f -exec grep -il $1 {} \;
 }
+
+# count of all the files in the current directory as well as all the files in a subdirectory
+number_of_files() {
+  find . -type f | wc -l;
+}
