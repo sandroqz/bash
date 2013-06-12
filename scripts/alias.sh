@@ -15,3 +15,5 @@ alias sizes='du -h -d1'
 alias rvmcheck='type rvm | head -1'
 
 alias psql="/usr/local/bin/psql"
+
+alias migrateall="rake db:migrate && RAILS_ENV=test rake db:migrate"
