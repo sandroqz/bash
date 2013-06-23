@@ -9,9 +9,9 @@ fi
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="1;31"
 
-export M2_HOME="$HOME/Development/apache-maven/apache-maven-3.0.4"
-export M2="$M2_HOME/bin"
-export PATH="$M2:$PATH"
+export M3_HOME="/usr/local/Cellar/maven/3.0.5/libexec"
+export M3="$M3_HOME/bin"
+export PATH="$M3:$PATH"
 export MAVEN_OPTS="-Xms256m -Xmx1024m -XX:MaxPermSize=512m"
 
 export ROO_HOME="$HOME/Development/spring-roo-1.2.2.RELEASE"
