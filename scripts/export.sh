@@ -27,7 +27,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/Development/android-sdk-macosx/platform-tools:$PATH"
 export PATH="$HOME/Development/android-sdk-macosx/tools:$PATH"
 
-export ANT_HOME="$HOME/Development/apache-ant-1.8.4"
+export ANT_HOME="/usr/local/Cellar/ant/1.9.1/libexec"
 export PATH="$ANT_HOME/bin:$PATH"
 
 export PATH="$HOME/Development/SenchaSDKTools-2.0.0-beta3:$PATH"
