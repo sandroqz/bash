@@ -17,3 +17,5 @@ alias rvmcheck='type rvm | head -1'
 alias psql="/usr/local/bin/psql"
 
 alias migrateall="rake db:migrate && RAILS_ENV=test rake db:migrate"
+
+alias tree="tree -C"
