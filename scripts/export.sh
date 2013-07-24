@@ -41,6 +41,6 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 export PGDATA="/usr/local/var/postgres"
 
 ### Ruby’s GC Configuration
-export RUBY_GC_MALLOC_LIMIT=1000000000
-export RUBY_FREE_MIN=500000
-export RUBY_HEAP_MIN_SLOTS=40000
+#export RUBY_GC_MALLOC_LIMIT=1000000000
+#export RUBY_FREE_MIN=500000
+#export RUBY_HEAP_MIN_SLOTS=40000
