@@ -1,4 +1,4 @@
-__hellobits_prompt () {
+__sqz_prompt () {
   history -a
   history -c
   history -r
@@ -27,8 +27,10 @@ __hellobits_prompt () {
 
   local RUBY_VERSION=`ruby -e "puts RUBY_VERSION"`
 
-  if [ -f Gemfile.lock ]; then
-    local RAILS_VERSION=`cat Gemfile.lock | grep -E " +rails \([0-9]+" | sed 's/ *rails (\(.*\))/\1/'`
+  local GEMSET=$(echo $GEM_HOME | awk -F'@' '{print $2}')
+
+  if [[ "$GEMSET" != "" ]]; then
+    GEMSET="@$GEMSET"
   fi
 
   local RUBY_PROMPT=""
@@ -45,11 +47,7 @@ __hellobits_prompt () {
   local CHANGES_NOT_STAGED="# Changes not staged for commit"
   local LOG=`git log -1 2> /dev/null`
 
-  if [[ "$RAILS_VERSION" ]]; then
-    local RAILS_PROMPT="${RAILS_VERSION}#"
-  fi
-
-  RUBY_PROMPT="${GRAY}[${RAILS_PROMPT}${RUBY_VERSION}]${NO_COLOR} "
+  RUBY_PROMPT="${GRAY}(${RUBY_VERSION}${GEMSET})${NO_COLOR} "
 
   if [ "$STATUS" != "" ]; then
     if [[ "$STATUS" =~ "$CHANGES_NOT_STAGED" ]]; then
@@ -88,4 +86,4 @@ __hellobits_prompt () {
   fi
 }
 
-PROMPT_COMMAND=__hellobits_prompt
+PROMPT_COMMAND=__sqz_prompt
