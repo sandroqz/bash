@@ -1,4 +1,4 @@
-__sqz_prompt () {
+__prompt () {
   history -a
   history -c
   history -r
@@ -86,4 +86,4 @@ __sqz_prompt () {
   fi
 }
 
-PROMPT_COMMAND=__sqz_prompt
+PROMPT_COMMAND=__prompt
