@@ -1,4 +1,4 @@
-source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
+source `brew --prefix`/etc/bash_completion.d/brew
 #source $HOME/.bash/scripts/other.sh
 source $HOME/.bash/scripts/export.sh
 source $HOME/.bash/scripts/alias.sh
