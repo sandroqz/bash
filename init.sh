@@ -18,3 +18,6 @@ source $HOME/.bash/scripts/prompt.sh
 source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 source /usr/local/etc/bash_completion.d/npm
 source /usr/local/etc/bash_completion.d/subversion
+
+# Tip: If you want to run VS Code from the terminal. Now, you can simply type code . in any folder to start editing files in that folder.
+function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*; }
