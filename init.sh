@@ -13,3 +13,8 @@ source $HOME/.bash/scripts/gem_completion.sh
 
 source $HOME/.bash/scripts/utils.sh
 source $HOME/.bash/scripts/prompt.sh
+
+###eval "$(hub alias -s)"
+source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
+source /usr/local/etc/bash_completion.d/npm
+source /usr/local/etc/bash_completion.d/subversion
