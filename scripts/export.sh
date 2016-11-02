@@ -24,6 +24,8 @@ export PATH="$JAVA_HOME/bin:$PATH"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+export ANDROID_HOME="/Users/sandro/Library/Android/sdk"
+export PATH=${PATH}:/Users/sandro/Library/Android/sdk/platform-tools:/Users/sandro/Library/Android/sdk/tools
 # export PATH="$HOME/Development/android-sdk-macosx/platform-tools:$PATH"
 # export PATH="$HOME/Development/android-sdk-macosx/tools:$PATH"
 
