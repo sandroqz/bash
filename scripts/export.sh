@@ -14,7 +14,7 @@ export M2="$M2_HOME/bin"
 export PATH="$M2:$PATH"
 export MAVEN_OPTS="-Xms256m -Xmx1024m -XX:MaxPermSize=512m"
 
-###export ROO_OPTS="-Droo.bright=true"
+# export ROO_OPTS="-Droo.bright=true"
 
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home"
 ###export JAVA_HOME="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"
@@ -34,6 +34,6 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 export PGDATA="/usr/local/var/postgres"
 
 ### Ruby’s GC Configuration
-#export RUBY_GC_MALLOC_LIMIT=1000000000
-#export RUBY_FREE_MIN=500000
-#export RUBY_HEAP_MIN_SLOTS=40000
+# export RUBY_GC_MALLOC_LIMIT=1000000000
+# export RUBY_FREE_MIN=500000
+# export RUBY_HEAP_MIN_SLOTS=40000
