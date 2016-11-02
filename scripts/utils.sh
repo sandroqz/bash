@@ -5,7 +5,7 @@ reload() {
 
 # list directory after cd
 cd() {
-  builtin cd "${@:-$HOME}" && ls -ld */;
+  builtin cd "${@:-$HOME}" && ls -ld */ .*/ 2> /dev/null;
 }
 
 # my search function
