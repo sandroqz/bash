@@ -27,7 +27,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/Development/android-sdk-macosx/platform-tools:$PATH"
 export PATH="$HOME/Development/android-sdk-macosx/tools:$PATH"
 
-export ANT_HOME="/usr/local/Cellar/ant/1.9.1/libexec"
+export ANT_HOME="/usr/local/Cellar/ant/1.9.7/libexec"
 export PATH="$ANT_HOME/bin:$PATH"
 
 export PGDATA="/usr/local/var/postgres"
