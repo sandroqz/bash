@@ -29,8 +29,6 @@ export PATH="$HOME/Development/android-sdk-macosx/tools:$PATH"
 export ANT_HOME="/usr/local/Cellar/ant/1.9.1/libexec"
 export PATH="$ANT_HOME/bin:$PATH"
 
-export PATH="/usr/local/share/npm/bin:$PATH"
-
 export PGDATA="/usr/local/var/postgres"
 
 ### Ruby’s GC Configuration
