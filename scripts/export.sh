@@ -29,12 +29,6 @@ export PATH="$HOME/Development/android-sdk-macosx/tools:$PATH"
 export ANT_HOME="/usr/local/Cellar/ant/1.9.1/libexec"
 export PATH="$ANT_HOME/bin:$PATH"
 
-export PATH="$HOME/Development/SenchaSDKTools-2.0.0-beta3:$PATH"
-export SENCHA_SDK_TOOLS_2_0_0_BETA3="$HOME/Development/SenchaSDKTools-2.0.0-beta3"
-
-export PATH="$HOME/Development/SenchaCmd-3.0.0.250/Sencha/Cmd/3.0.0.250:$PATH"
-export SENCHA_CMD_3_0_0="$HOME/Development/SenchaCmd-3.0.0.250/Sencha/Cmd/3.0.0.250"
-
 export PATH="/usr/local/share/npm/bin:$PATH"
 
 export PGDATA="/usr/local/var/postgres"
