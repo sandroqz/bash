@@ -35,3 +35,7 @@ export PGDATA="/usr/local/var/postgres"
 # export RUBY_GC_MALLOC_LIMIT=1000000000
 # export RUBY_FREE_MIN=500000
 # export RUBY_HEAP_MIN_SLOTS=40000
+
+### http://osxdaily.com/2012/02/21/add-color-to-the-terminal-in-mac-os-x/
+export CLICOLOR=1
+export LSCOLORS=Exfxcxdxbxegedabagacad
