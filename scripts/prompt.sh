@@ -18,7 +18,7 @@ __prompt () {
   local BRANCH=`git branch 2> /dev/null | grep \* | sed 's/* //'`
 
   if [[ "$BRANCH" = "" ]]; then
-    BRANCH=`git status 2> /dev/null | grep "On branch" | sed 's/# On branch //'`
+    BRANCH=`git status 2> /dev/null | grep "On branch" | sed 's/ On branch //'`
   fi
 
   if [[ "$BRANCH" = "" ]]; then
@@ -37,14 +37,14 @@ __prompt () {
   local STATUS=`git status 2>/dev/null`
   local PROMPT_COLOR=""
   local STATE=" "
-  local NOTHING_TO_COMMIT="# Initial commit"
-  local BEHIND="# Your branch is behind"
-  local AHEAD="# Your branch is ahead"
-  local UNTRACKED="# Untracked files"
+  local NOTHING_TO_COMMIT="Initial commit"
+  local BEHIND="Your branch is behind"
+  local AHEAD="Your branch is ahead"
+  local UNTRACKED="Untracked files"
   local DIVERGED="have diverged"
-  local CHANGED="# Changed but not updated"
-  local TO_BE_COMMITED="# Changes to be committed"
-  local CHANGES_NOT_STAGED="# Changes not staged for commit"
+  local CHANGED="Changed but not updated"
+  local TO_BE_COMMITED="Changes to be committed"
+  local CHANGES_NOT_STAGED="Changes not staged for commit"
   local LOG=`git log -1 2> /dev/null`
 
   RUBY_PROMPT="${GRAY}(${RUBY_VERSION}${GEMSET})${NO_COLOR} "
